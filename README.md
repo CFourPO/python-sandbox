@@ -56,21 +56,23 @@ Can be used to create tabular data from various sources.
 >
 >df = pd.DataFrame(dict)
 >print(df)
->```
+>
+>"""
 >Output:
->```
+>
 >        city                 fav_movie   first    last  score
 >0  New York             The Outsiders   Chris   Smith     90
 >1    Boston  Pirates of the Carribean   Tommy    Bart     85
 >2   Pheonix              Harry Potter    alex  Trebek     99
 >3  Istanbul                       Elf  Jarrod  Subway     78
+>"""
 >```
 
 #### Create DataFrame from CSV:
 
-```
-df = pd.read_csv('file.csv')
-```
+>```
+>df = pd.read_csv('file.csv')
+>```
 
 #### Accessing Rows (Observations):
 
@@ -83,5 +85,4 @@ df = pd.read_csv('file.csv')
 >
 ># create dataframe with specific columns
 >show_cols = df[['column_1', 'column_2']]
->
 >```
